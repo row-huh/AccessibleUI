@@ -103,7 +103,7 @@ def main():
     <link class="git_link" href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
     
 
-<a href="https://https://github.com/row-huh/AccessibleUI" class="git_button">View Project on GitHub</a>
+<a href="https://github.com/row-huh/AccessibleUI" class="git_button">View Project on GitHub</a>
             </p>
             <div class="container">
                 <p class="main_title">ACCESSIBLE UI<p>
