@@ -12,15 +12,6 @@ except ImportError:
     upload_file = None
 
 
-
-load_dotenv()
-
-# Get the API key
-api_key = os.getenv('GOOGLE_API_KEY')
-
-if not api_key:
-    raise ValueError("GOOGLE_API_KEY not found in environment variables")
-
 log_format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 logging.basicConfig(format=log_format, stream=sys.stdout, level=logging.INFO)
 
