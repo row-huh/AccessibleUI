@@ -14,7 +14,7 @@ log_format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 logging.basicConfig(format=log_format, stream=sys.stdout, level=logging.INFO)
 
 
-BASE_API_URL = "http://127.0.0.1:7860/api/v1/run"
+BASE_API_URL = "http://127.0.0.1:7860/"
 FLOW_ID = "0ac617e2-fc14-4076-8881-b8400125d1eb"
 ENDPOINT = "" # You can set a specific endpoint name in the flow settings
 
@@ -55,7 +55,7 @@ def main():
                 .container {
                     max-width: 600px;
                     margin: 0 auto;
-                    background-color: #c4f3cb;
+                    background-color: #FFFFFF;
                     padding: 20px;
                     border-radius: 10px;
                     text-align: center;
@@ -143,7 +143,7 @@ def main():
             font-family: 'Orbitron';font-size: 40px;
         }
         .stApp {
-            background-color: #c4f3cb !important;
+            background-color: #FFFFFF !important;
         }
         </style>
 
